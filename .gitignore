@@ -1,0 +1,40 @@
+# === Virtual environment ===
+env/
+.venv/
+venv/
+
+# === OpenVINO runtime (downloaded, not source code) ===
+openvino_2022.3/
+*.tgz
+
+# === Model files (downloadable from Open Model Zoo, see README) ===
+models/*.xml
+models/*.bin
+
+# === Generated outputs ===
+detect-image/outputs/
+detect-image/input_downloaded.jpg
+detect-image/output*.jpg
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# === IDE / editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
