@@ -297,3 +297,9 @@ Most are drop-in replacements via the `--model` flag in `detect_image.py`. Adjus
 ---
 
 **Setup tested on 2026-05-08 with: Raspberry Pi (aarch64) + Debian 13 + RPi kernel `6.12.75+rpt-rpi-v8` + Python 3.13 (system) / 3.9 (venv) + OpenVINO 2022.3.2 + NCS2.**
+
+
+## Refrences
+https://www.intel.com/content/www/us/en/support/articles/000057005/boards-and-kits.html
+https://www.intel.com/content/www/us/en/support/articles/000055220/boards-and-kits.html
+https://storage.openvinotoolkit.org/repositories
